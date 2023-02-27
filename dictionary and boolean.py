@@ -1,3 +1,4 @@
+
 inforDict = {
  0: {'Name': 'Hà Quang Tuấn',
   'Phone': '0937623590',
@@ -34,6 +35,7 @@ class generateDict:
       row.append(value)
     self.list1.append(row)
   return self.list1
+
 
 obj = generateDict(inforDict)
 checkedDict = obj.convertedList()
